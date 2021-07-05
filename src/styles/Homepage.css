@@ -1,0 +1,228 @@
+.home-page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.current-issue-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent linear-gradient(159deg, #EDEDED 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 2px 4px 8px #0000000D;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 41px;
+    margin-bottom: 59px;
+    padding: 18px 0;
+}
+
+.card-header{
+    text-align: center !important;
+    font: normal normal bold 18px/22px Heuristica !important;
+    letter-spacing: 0px !important;
+    color: black !important;
+    margin-bottom: 10px !important;
+}
+
+.current-issue-img-container{
+    width: 100%;
+}
+
+.current-issue-img-container img{
+    width: 100%;
+    height: 260px;
+    background-size: contain;
+}
+
+.current-issue-text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.current-issue-text{
+    text-align: left;
+    font: normal normal normal 14px/20px Heuristica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.current-issue-text-container ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: left;
+    font: normal normal normal 14px/20px Heuristica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.current-issue-text-container ul li{
+    margin-bottom: 20px;
+}
+
+.read-more-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 7px 15px;
+    background: #022222 0% 0% no-repeat padding-box;
+    box-shadow: 2px 4px 6px #2222221F;
+    border-radius: 4px;
+}
+
+.where-to-buy-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #ACACAC;
+    border-radius: 4px;
+    padding: 20px 10px;
+    margin-bottom: 35px;
+}
+.address-text{
+    text-align: center;
+    font: normal normal normal 14px/20px Heuristica;
+    letter-spacing: 0px;
+}
+
+
+.on-app-store-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #ACACAC;
+    border-radius: 4px;
+    padding: 23px 24px; 
+    margin-bottom: 37px;
+}
+
+.on-app-store-img-container{
+    width: 100%;
+    border: 1px solid #ACACAC;
+    border-radius: 4px;
+}
+
+.on-app-store-img-container img{
+    width: 100%;
+    height: 320px;
+    background-size: contain;
+}
+
+.on-app-store-text{
+    text-align: center;
+    font: normal normal normal 14px/22px Inter;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.apple-google-play-img-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apple-google-play-img-container img{
+    width: 132px;
+    height: 50px;
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.5px solid #ACACAC;
+    border-radius: 4px;
+    padding: 15px 40px 23px 40px;
+    margin-bottom: 44px;
+}
+
+.about-card p{
+    text-align: center;
+    font: normal normal normal 14px/22px Heuristica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.5px solid #ACACAC;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 85px;
+}
+.contact-card p{
+    margin: 0;
+    text-align: center;
+    font: normal normal normal 16px/32px Heuristica;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.newsletter-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding: 17px 29px 23px 29px;
+    margin-bottom: 46px;
+}
+.newsletter-card p{
+    margin: 0;
+    text-align: center;
+    font: normal normal normal 14px/22px Inter;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.newsletter-card input{
+    width: 100%;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #000000;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.subscribe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    text-align: left;
+    font: normal normal normal 14px/22px Zwizz;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.social-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.5px solid #ACACAC;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+
+.social-card span{
+    text-align: center;
+    font: normal normal normal 16px/32px Heuristica;
+    letter-spacing: 0px;
+    color: #000000;
+}
